@@ -1,0 +1,17 @@
+.bignoodle {
+    font-family: 'Righteous', cursive;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.hover:hover{
+width: 300px;
+height: 400px;
+transition: all;
+transition: 0.3s;
+}
+
+.hover{
+    transition: all;
+    transition: 0.3s;
+    }
