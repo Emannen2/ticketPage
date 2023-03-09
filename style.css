@@ -1,7 +1,6 @@
 .bignoodle {
     font-family: 'Righteous', cursive;
     -webkit-font-smoothing: antialiased;
-
 }
 
 .hover:hover{
@@ -39,27 +38,8 @@ transition: 0.3s;
 
 #hamburgerContent{
     visibility: hidden;
-    right: -15%;
+    right: -25%;
     transition: 1000ms;
-}
-
-#hamburgerLine1{
-    transform: rotate(0deg) translate(0, 0);
-    position: relative;
-    max-width: 100%;
-    transition: 1000ms;
-}
-
-#hamburgerLine2{
-    transform: rotate(0deg) translate(0, 0);
-    position: relative;
-    max-width: 100%;
-    transition: 1000ms;
-}
-
-#hamburgerLine3{
-    opacity: 1;
-    transition: 250ms;
 }
 
 #body{
@@ -68,11 +48,12 @@ transition: 0.3s;
     transition: 1000ms;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1370px) {
 
     #body.active{
         overflow: hidden;
-        left: -15%;
+        left: -25%;
+        opacity: 50%;
         transition: 1000ms;
     }
 
@@ -88,6 +69,25 @@ transition: 0.3s;
         visibility: visible;
         right: 0;
         transition: 1000ms;
+    }
+
+    #hamburgerLine1{
+        transform: rotate(0deg) translate(0, 0);
+        position: relative;
+        max-width: 100%;
+        transition: 1000ms;
+    }
+    
+    #hamburgerLine2{
+        transform: rotate(0deg) translate(0, 0);
+        position: relative;
+        max-width: 100%;
+        transition: 1000ms;
+    }
+    
+    #hamburgerLine3{
+        opacity: 1;
+        transition: 250ms;
     }
 
     #hamburgerLine1.active{
