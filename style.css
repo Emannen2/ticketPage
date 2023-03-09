@@ -15,18 +15,18 @@ transition: 0.3s;
     transition: 0.3s;
     }
 
-    body::-webkit-scrollbar {
-        width: 9px;
-      }
+body::-webkit-scrollbar {
+    width: 9px;
+}
 
-      body::-webkit-scrollbar-track {
-        background: #fff; 
-      }
+body::-webkit-scrollbar-track {
+    background: #fff; 
+}
 
-      body::-webkit-scrollbar-thumb {
-        background-color: gray;
-        border-radius: 20px;
-      }
+body::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+}
 
 #navbarFull{
     visibility: visible;
@@ -49,6 +49,10 @@ transition: 0.3s;
 }
 
 @media screen and (max-width: 1370px) {
+
+    #textInput{
+        visibility: hidden;
+    }
 
     #body.active{
         overflow: hidden;
