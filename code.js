@@ -20,6 +20,62 @@ addEventListener('resize', function() {
     }
 });
 
-document.getElementById('textInput').addEventListener('keypress', function(e) {
-    //be be worked on
+
+addEventListener('resize', function(){
+    if (this.window.innerWidth < 1451){
+        document.getElementById('noSpace').classList.remove('space-x-20');
+    }
 });
+
+addEventListener('resize', function(){
+    if (this.window.innerWidth > 1451){
+        document.getElementById('noSpace').classList.add('space-x-20');
+    }
+});
+
+addEventListener('resize', function(){
+    if (this.window.innerWidth < 1451){
+        document.getElementById('noSpaces').classList.remove('space-x-20');
+    }
+});
+
+addEventListener('resize', function(){
+    if (this.window.innerWidth > 1451){
+        document.getElementById('noSpaces').classList.add('space-x-20');
+    }
+});
+
+    if (this.window.innerWidth < 1451){
+        document.getElementById('noSpace').classList.remove('space-x-20');
+    }
+
+    if (this.window.innerWidth > 1451){
+        document.getElementById('noSpace').classList.add('space-x-20');
+    }
+
+    if (this.window.innerWidth < 1451){
+        document.getElementById('noSpaces').classList.remove('space-x-20');
+    }
+
+    if (this.window.innerWidth > 1451){
+        document.getElementById('noSpaces').classList.add('space-x-20');
+    }
+
+// document.getElementById('textInput').addEventListener('keypress', function(e) {
+    //be be worked on
+// });
+
+// const searchBar = document.getElementsByClassName('searchReveal')[0];
+// searchBar.style.visibility = "hidden";
+
+// function revealSearch(){
+//     const revealButton = document.querySelector(".buttonReveal");
+//     revealButton.addEventListener("click", function() {
+//         searchBar.style.visibility = "visible";
+//             revealButton.style.visibility = "hidden";
+
+//     });
+// }
+
+// revealSearch();
+
